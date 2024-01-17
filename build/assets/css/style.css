@@ -746,6 +746,12 @@ header .logo a img {
   transform: translateY(0);
 }
 
+.main-nav ul li .sub-menu.show {
+  display: block!important;
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .hot-line {
   display: flex;
   margin-left: 100px;
