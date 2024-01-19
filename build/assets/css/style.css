@@ -658,6 +658,7 @@ header .logo a img {
   display: none;
 }
 .main-nav ul {
+  min-width: 600px;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -778,6 +779,7 @@ header .logo a img {
   min-width: 40px;
 }
 .hot-line .line-cnt {
+  min-width: 120px;
   margin-left: 5px;
   text-align: left;
 }
@@ -805,6 +807,10 @@ header .logo a img {
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .btn-block {
     text-align: center;
+    margin-top: 0.5em;
+  }
+  .main-nav ul {
+    min-width: 0px;
   }
 }
 
@@ -812,7 +818,9 @@ header .logo a img {
   background-color: #A3B18A;
   box-shadow: 0px 0px 50px rgba(10, 42, 67, 0.05);
   border-radius: 30px;
-  min-width: 200px;
+  /* min-width: 200px; */
+  margin-left: 1em;
+  min-width: 135px;
   text-align: right;
   display: inline-block;
   height: 54px;
@@ -825,7 +833,8 @@ header .logo a img {
   background-color: #344E41;
   box-shadow: inset 0px 0px 15px rgba(6, 6, 6, 0.1);
   border-radius: 30px;
-  min-width: 197px;
+  /* min-width: 197px; */
+  min-width: 130px;
   display: inline-block;
   text-align: center;
   padding: 15px;
