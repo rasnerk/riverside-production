@@ -4683,8 +4683,19 @@ ul.field-points li i {
     font-size: 26px;
   }
 }
+.contact-form form #pcs {
+  width: 100%;
+  /* height: 55px; */
+  background: #FFFFFF;
+  /* margin-bottom: 20px; */
+  padding: 0 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #545454;
+}
 
 .contact-form form input,
+.contact-form form select,
 .contact-form form textarea {
   width: 100%;
   height: 55px;
